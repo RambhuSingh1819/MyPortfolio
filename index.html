@@ -2487,21 +2487,36 @@
             <div class="rm-icon">📄</div>
             <div class="rm-h">Rambhu Singh — Resume</div>
             <div class="rm-sub">Full Stack & Backend Developer · IILM University · CGPA 8.69<br>Java · Spring Boot · Hibernate · REST APIs · MySQL · AWS · Redis · Docker</div>
-            <div class="rm-btns">
-                <a href="#" onclick="openCV(event)" class="rm-btn rm-view">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                        <circle cx="12" cy="12" r="3" />
-                    </svg>View Resume
-                </a>
-                <a href="#" onclick="downloadCV(event)" class="rm-btn rm-dl">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
-                        <polyline points="7,10 12,15 17,10" />
-                        <line x1="12" y1="15" x2="12" y2="3" />
-                    </svg>Download PDF
-                </a>
-            </div>
+            
+<div class="rm-btns">
+
+    <!-- View Resume -->
+    <a href="Rambhu_Singh_Resume.pdf"
+       target="_blank"
+       class="rm-btn rm-view">
+        <svg width="14" height="14" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+        </svg>
+        View Resume
+    </a>
+
+    <!-- Download Resume -->
+    <a href="Rambhu_Singh_Resume.pdf"
+       download="Rambhu_Singh_Resume.pdf"
+       class="rm-btn rm-dl">
+        <svg width="14" height="14" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Download PDF
+    </a>
+
+</div>
+
             <span class="rm-close" onclick="document.getElementById('rModal').classList.remove('open')">✕ Close</span>
         </div>
     </div>
